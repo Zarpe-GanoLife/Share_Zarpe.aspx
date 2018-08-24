@@ -1,5 +1,7 @@
 <%@ Page Title="Zarpe con nosotros" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Share_Zarpe.aspx.cs" Inherits="Share_Zarpe" %>
 
+
+
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 
 <title>Zarpe con nosotros</title>
@@ -11,6 +13,8 @@
 <!-- Scripts -->
 
 <!-- START - Heateor Open Graph Meta Tags 1.1.5 -->
+
+
 
     <!-- START - FACEBOOK  -->
     <meta name="description" content="La plataforma que le ayudará a hacer crecer su negocio está aquí. Ingrese hoy y comparta nuestro contenido con todos para llegar más lejos."/>
@@ -140,16 +144,10 @@
         <tr>
         <td align="left">
         <asp:Image ID="Image3" runat="server" ImageUrl="~/Styles/images/zarpe_logo2.jpg" style="width:100%; max-width:150px; margin-left:-10px;" class="ver_en_movil"/>
-        
-
-
-
-        <asp:Label ID="Label81" runat="server" Text="Bienvenido (a)" class="titulo_7b" Font-Bold="true" ForeColor="#042743" style="display:none;"></asp:Label>
-        <asp:Label ID="lbFirstName" runat="server" Text="Nombre" class="titulo_7b" Font-Bold="true" ForeColor="#042743" style="display:none;"></asp:Label> 
-        
-
-
-
+        <br>
+        <asp:Label ID="Label81" runat="server" Text="Bienvenido (a)" class="titulo_7b" Font-Bold="true" ForeColor="#042743" ></asp:Label>
+        <asp:Label ID="lbFirstName" runat="server" Text="Nombre" class="titulo_7b" Font-Bold="true" ForeColor="#042743" ></asp:Label> 
+        <br>
         <asp:Label ID="lbZarpeFirst10Total" runat="server" class="texto_21" ForeColor="#939498" style="display:none;"></asp:Label><br>
         <asp:HyperLink ID="lnkZarpeFirst10Coupon" runat="server" NavigateUrl="#"  Width="150" class="boton_zarpe13" style="display:none;"> 
             <asp:Label ID="lbZarpeFirst10Coupon" runat="server" ForeColor="#052943" Text="CANJEAR AHORA" Font-Bold="true" style="display:none;"></asp:Label>
@@ -157,7 +155,7 @@
         </td>
 
         <td align="right">
-        <%--<asp:Image ID="Image14" runat="server" ImageUrl="~/Styles/images/zarpe_logo2.jpg" style="width:100%; max-width:300px;" class="ocultar_en_movil"/>--%>
+        <asp:Image ID="Image14" runat="server" ImageUrl="~/Styles/images/zarpe_logo2.jpg" style="width:100%; max-width:300px;" class="ocultar_en_movil"/>
         </td>
         </tr>
 

@@ -178,7 +178,7 @@
         <asp:Image ID="Image118" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:22px;"/>
         <asp:Label ID="Label91" runat="server" Text="Videos" class="titulo_8b" Font-Bold="true" ForeColor="#042842" ></asp:Label>
         <asp:Image ID="Image31" runat="server" ImageUrl="~/Styles/images/zarpe_linea7.png"/>
-        <asp:Label ID="Label102" runat="server" Text="Haz click sobre el botón COMPARTIR para seleccionar el destino del contenido" 
+        <asp:Label ID="Label102" runat="server" Text="Haz click sobre el botón COMPARTIR para seleccionar el destino del contenido." 
         class="texto_19" ForeColor="#818183"></asp:Label>
         <br>
 
@@ -209,33 +209,35 @@
                             <tr>
                             <td>
                                 <asp:HyperLink ID="lnkShareFacebook" runat="server" NavigateUrl="#" Target="_blank">
-                                    <asp:Image ID="imgShareFacebook" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.jpg" style="width:18px;"/>
+                                    <asp:Image ID="imgShareFacebook" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.png" style="width:18px;"/>
                                 </asp:HyperLink>
                             </td>
                             <td>
                                 <asp:HyperLink ID="lnkShareTwitter" runat="server" NavigateUrl="#" Target="_blank">
-                                    <asp:Image ID="imgShareTwitter" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.jpg" style="width:26px;"/>
+                                    <asp:Image ID="imgShareTwitter" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.png" style="width:26px;"/>
                                 </asp:HyperLink>
                             </td>
                             <td>
                                 <asp:HyperLink ID="lnkShareMessenger" runat="server" NavigateUrl="#" Target="_blank">
-                                    <asp:Image ID="imgShareMessenger" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.jpg" style="width:26px;"/>
+                                    <asp:Image ID="imgShareMessenger" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.png" style="width:26px;"/>
                                 </asp:HyperLink>
                             </td>
                             <td>
                                 <asp:HyperLink ID="lnkShareWhatsApp" runat="server" NavigateUrl="#" target="_blank" class="ver_en_movil" data-action="share/whatsapp/share">
-                                    <asp:Image ID="imgShareWhatsApp" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.jpg" style="width:26px"/>
+                                    <asp:Image ID="imgShareWhatsApp" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.png" style="width:26px"/>
                                 </asp:HyperLink>
                             </td>
                             
                             <td>
                                 <asp:LinkButton ID="lnkShareEmail" runat="server" OnClick="lnkShareEmail_Click">
-                                    <asp:Image ID="imgShareEmail" runat="server" ImageUrl="~/Styles/images/zarpe_email2.jpg" style="width:26px;" />
+                                    <asp:Image ID="imgShareEmail" runat="server" ImageUrl="~/Styles/images/zarpe_email2.png" style="width:26px;" />
                                 </asp:LinkButton>
                             </td>
                             <td  style="width:90px;"><br>
-                                <asp:LinkButton ID="lnkShareCopyClipboard" runat="server" Text="COPIAR ENLACE" class="texto_4b" 
+                              
+                                <asp:LinkButton ID="lnkShareCopyClipboard" runat="server" Text="COPIAR ENLACE" class="texto_4b"  
                                 Font-Bold="true" ForeColor="#818085"></asp:LinkButton>
+                               
 
                                 <asp:TextBox ID="txtShareCopyClipboard" runat="server" ClientIDMode="Static" ReadOnly="true" Width="40%" 
                                 style=" opacity: 0.0; filter: alpha(opacity=0); /* For IE8 and earlier */" />
@@ -370,10 +372,7 @@
 
 
 
-
-
         </div>
-
 
 
 
@@ -769,7 +768,6 @@
 
         
 
-
         
         </td>
         </tr>
@@ -788,7 +786,7 @@
         <asp:Image ID="Image300" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:22px;"/>
         <asp:Label ID="Label510" runat="server" Text="Productos" class="titulo_8b" Font-Bold="true" ForeColor="#042842" ></asp:Label>
         <asp:Image ID="Image36" runat="server" ImageUrl="~/Styles/images/zarpe_linea7.png"/>
-        <asp:Label ID="Label106" runat="server" Text="Haz click sobre el botón COMPARTIR para seleccionar el destino del contenido" 
+        <asp:Label ID="Label106" runat="server" Text="Haz click sobre el botón COMPARTIR para seleccionar el destino del contenido." 
         class="texto_19" ForeColor="#818183"></asp:Label>
         <br>
 
@@ -853,34 +851,34 @@
                                     <tr>
                                     <td>
                                         <asp:HyperLink ID="lnkShareFacebook" runat="server" NavigateUrl="#" Target="_blank">
-                                            <asp:Image ID="imgShareFacebook" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.jpg" style="width:18px;"/>
+                                            <asp:Image ID="imgShareFacebook" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.png" style="width:18px;"/>
                                         </asp:HyperLink>
                                     </td>                  
                                     <td>
                                         <asp:HyperLink ID="lnkShareWhatsApp" runat="server" NavigateUrl="#" Target="_blank" class="ver_en_movil" data-action="share/whatsapp/share">
-                                            <asp:Image ID="imgShareWhatsApp" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.jpg" style="width:26px"/>
+                                            <asp:Image ID="imgShareWhatsApp" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.png" style="width:26px"/>
                                         </asp:HyperLink>
                                     </td>
                                     <td style="display:none;">
                                         <asp:HyperLink ID="lnkShareGoogle" runat="server" NavigateUrl="#" Target="_blank">
-                                        <asp:Image ID="imgShareGoogle" runat="server" ImageUrl="~/Styles/images/zarpe_google2.jpg" style="width:26px;"/></asp:HyperLink>
+                                        <asp:Image ID="imgShareGoogle" runat="server" ImageUrl="~/Styles/images/zarpe_google2.png" style="width:26px;"/></asp:HyperLink>
                                     </td>
                                     <td>
                                         <asp:HyperLink ID="lnkShareTwitter" runat="server" NavigateUrl="#" Target="_blank">
-                                        <asp:Image ID="imgShareTwitter" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.jpg" style="width:26px;"/></asp:HyperLink>
+                                        <asp:Image ID="imgShareTwitter" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.png" style="width:26px;"/></asp:HyperLink>
                                     </td>
                                     <td>
                                         <asp:HyperLink ID="lnkShareMessenger" runat="server" NavigateUrl="#" Target="_blank" >
-                                            <asp:Image ID="imgShareMessenger" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.jpg" style="width:26px;"/>
+                                            <asp:Image ID="imgShareMessenger" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.png" style="width:26px;"/>
                                         </asp:HyperLink>
                                     </td>
                                     <td>
                                         <asp:LinkButton ID="LinkButton4" runat="server" OnClick="lnkShareEmail_Click">
-                                            <asp:Image ID="imgShareEmail" runat="server" ImageUrl="~/Styles/images/zarpe_email2.jpg" style="width:26px;" />
+                                            <asp:Image ID="imgShareEmail" runat="server" ImageUrl="~/Styles/images/zarpe_email2.png" style="width:26px;" />
                                         </asp:LinkButton>
                                     </td>
 
-                                    <td colspan="5" align="center" style="width:90px;">
+                                    <td colspan="5" align="center" style="width:90px;"><br>
                                     <asp:LinkButton ID="LinkButton3" runat="server" Text="COPIAR ENLACE" class="texto_4b" 
                                     Font-Bold="true" ForeColor="#818085"></asp:LinkButton>
 
@@ -906,7 +904,7 @@
 
                             </li>
                     </ul>
-
+                 
                                 <!-- DropMenu movil --> 
                                 <div id='<%# "open-modal-"+DataBinder.Eval(Container.DataItem, "ID") %>' class="modal-window ver_en_movil">
                                 <a href="#modal-close" class="modal-close"></a>
@@ -1095,6 +1093,8 @@
                 </li>
 
                 </ul>
+
+                <br><br>
             </div>
 
         </ItemTemplate>
@@ -1111,107 +1111,131 @@
 
         <tr>
         <td colspan="2" >
-        <div id="superalimentos" style="height:80px;" ></div>
+        <div id="superalimentos" style="height:10px;" ></div>
+        <br>
 
-        <div class="no_ver_en_movil2" ><br><br><br><br><br><br><br><br></div>
         <!-- Super alimentos -->
-        <asp:Image ID="Image6" runat="server" ImageUrl="~/Styles/images/zarpe_flecha3.jpg" style="width:22px;"/>
-        <asp:Label ID="Label511" runat="server" Text="Detalle sobre nuestros Súper Alimentos" class="titulo_8b" Font-Bold="true" ForeColor="#00a69c" ></asp:Label>
+        <div class="div_borde">
+        <asp:Image ID="Image6" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:22px;"/>
+        <asp:Label ID="Label511" runat="server" Text="Súper Alimentos" class="titulo_8b" 
+        Font-Bold="true" ForeColor="#042842" ></asp:Label>
+        <asp:Image ID="Image37" runat="server" ImageUrl="~/Styles/images/zarpe_linea7.png"/>
+        <asp:Label ID="Label107" runat="server" Text="Haz click sobre el botón COMPARTIR para seleccionar el destino del contenido." 
+        class="texto_19" ForeColor="#818183"></asp:Label>
+    
 
         <asp:DataList ID="dtlLanding" runat="server" ClientIDMode="Static" RepeatDirection="Horizontal" RepeatLayout="Flow" onitemdatabound="dtlShare_ItemDataBound" >
         <ItemTemplate>
         <asp:HiddenField ID="hdID" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "ID") %>' Visible="false" />
         <asp:HiddenField ID="hdShareMenuMovil" runat="server" Value="1" Visible="false" />
-        <br>
-        <div class="col-md-6" style="height:250px;" >
+     
+        <div class="col-md-12" >
         <ul style="padding-left: 0; margin-bottom: 0; list-style: none;">  <br>
-                 <li class="dropdown" id='<%# "li-"+DataBinder.Eval(Container.DataItem, "ID") %>'>
-                    <br>
+            <li class="dropdown" id='<%# "li-"+DataBinder.Eval(Container.DataItem, "ID") %>'>
+            
 
-                    <asp:Label ID="lbDescription" runat="server" ForeColor="#808185" class="texto_7" Text='<%# DataBinder.Eval(Container.DataItem, "ContentDescription") %>'></asp:Label><br>
-                    <asp:HyperLink ID="lnkGoPage" runat="server" Target="_blank" NavigateUrl='<%# DataBinder.Eval(Container.DataItem, "ContentEmailUrl") %>'>
-                        <asp:Label ID="lbGoPage" runat="server" ForeColor="#808185" Text="Ir a la página." class="texto_9" style="text-decoration:underline;"></asp:Label>
-                    </asp:HyperLink>
+            <div class="col-md-3">
+            <div class="zarpe_productos_ancho2" >
+                <div class="zarpe_imagen_borde">
+                    <asp:Image ID="imgProduct" class="zarpe_imagen2" runat="server" 
+                    ImageUrl="~/Styles/images/zarpe_superalimentos.jpg"
+                    style="width:100%; max-width:400px;"/></div>
+                </div>
+            </div>
 
-                    <%--<input id='<%# "ac-"+DataBinder.Eval(Container.DataItem, "ID") %>' name='<%# "accordion-"+DataBinder.Eval(Container.DataItem, "ID") %>' type="checkbox" />--%>
-                    <label for='<%# "ac-"+DataBinder.Eval(Container.DataItem, "ID") %>' style="text-shadow: 0px 0px 0px #fff; box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.0), 0px 2px 2px rgba(0,0,0,0.0);">
-                    </label>
-                    <br>
 
-                    <div class="no_ver_en_movil2"><br></div>
-
-                    <asp:HyperLink ID="lnkShare" runat="server"  href="#" data-toggle="dropdown" role="button" class="boton_zarpe13 ocultar_en_movil">
-                        <asp:Label ID="lbShare" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
-                    </asp:HyperLink>
-                    <asp:HyperLink ID="lnkShare_movil" runat="server" href='<%# "#open-modal-"+DataBinder.Eval(Container.DataItem, "ID") %>' Width="130" class="boton_zarpe13 ver_en_movil" style="display:none;">
-                                <asp:Label ID="lbShare_movil" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
-                    </asp:HyperLink>
-           
+            <div class="col-md-9">
+            <asp:Label ID="lbDescription" runat="server" ForeColor="#808185" class="texto_7" Text='<%# DataBinder.Eval(Container.DataItem, "ContentDescription") %>'></asp:Label><br>
+            
                             
-                            <ul class="dropdown-menu zarpe_dropdown-menu zarpe_margen_izquierda4" style="margin-top:-52px!important; background:#ffffff!important;">
-                            <li style="margin-left: -17px!important; margin-top:-18px; ">
+            <%--<input id='<%# "ac-"+DataBinder.Eval(Container.DataItem, "ID") %>' name='<%# "accordion-"+DataBinder.Eval(Container.DataItem, "ID") %>' type="checkbox" />--%>
+            <label for='<%# "ac-"+DataBinder.Eval(Container.DataItem, "ID") %>' style="text-shadow: 0px 0px 0px #fff; 
+                box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.0), 0px 2px 2px rgba(0,0,0,0.0);">
+            </label>
+            <br>
+
+            <asp:HyperLink ID="lnkShare" runat="server"  href="#" data-toggle="dropdown" role="button" class="boton_zarpe13 ocultar_en_movil">
+                <asp:Label ID="lbShare" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+            </asp:HyperLink>
+            <asp:HyperLink ID="lnkShare_movil" runat="server" href='<%# "#open-modal-"+DataBinder.Eval(Container.DataItem, "ID") %>' 
+            Width="130" class="boton_zarpe13 ver_en_movil" style="display:none;">
+                        <asp:Label ID="lbShare_movil" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+            </asp:HyperLink>
+
+            <asp:HyperLink ID="lnkGoPage" runat="server" Target="_blank" NavigateUrl='<%# DataBinder.Eval(Container.DataItem, "ContentEmailUrl") %>' 
+            class="boton_zarpe13">
+            <asp:Label ID="lbGoPage" runat="server" ForeColor="#052943" Text="IR A LA PÁGINA" Font-Bold="true"></asp:Label>
+            </asp:HyperLink>
+
+
+                            <!-- DropMenu PC --> 
+                            <ul class="dropdown-menu zarpe_dropdown-menu zarpe_margen_izquierda444" >
+                            <li >
                                 <table width="100%" align="left" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                     <td width="30px">
                                         <asp:HyperLink ID="lnkShareFacebook" runat="server" NavigateUrl="#" Target="_blank">
-                                            <asp:Image ID="imgShareFacebook" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.jpg" style="width:28px;"/>
+                                            <asp:Image ID="imgShareFacebook" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.png" style="width:28px;"/>
                                         </asp:HyperLink>
                                     </td>
-                                    <td width="36px">
+                                    <td width="36px" style="display:none; ">
                                         <asp:HyperLink ID="lnkShareGoogle" runat="server" NavigateUrl="#" Target="_blank">
-                                            <asp:Image ID="imgShareGoogle" runat="server" ImageUrl="~/Styles/images/zarpe_google2.jpg" style="width:34px;"/>
+                                            <asp:Image ID="imgShareGoogle" runat="server" ImageUrl="~/Styles/images/zarpe_google2.png" style="width:34px;"/>
                                         </asp:HyperLink>
                                     </td>
                                     <td width="40px">
                                         <asp:HyperLink ID="lnkShareTwitter" runat="server" NavigateUrl="#" Target="_blank">
-                                            <asp:Image ID="imgShareTwitter" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.jpg" style="width:34px;"/>
+                                            <asp:Image ID="imgShareTwitter" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.png" style="width:34px;"/>
                                         </asp:HyperLink>
                                     </td>
                                     
                                     <td width="36px">
-                                        <asp:HyperLink ID="lnkShareMessenger" runat="server" NavigateUrl="#" class="ver_en_movil">
-                                            <asp:Image ID="Image93" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.jpg" style="width:34px;"/>
+                                        <asp:HyperLink ID="lnkShareMessenger" runat="server" NavigateUrl="#" class="ver_en_movil2222">
+                                            <asp:Image ID="Image93" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.png" style="width:34px;"/>
                                         </asp:HyperLink>
                                     </td>
                                     <td>
                                         <asp:HyperLink ID="lnkShareWhatsApp" runat="server" NavigateUrl="#" Target="_blank" class="ver_en_movil" data-action="share/whatsapp/share">
-                                            <asp:Image ID="imgShareWhatsApp" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.jpg" style="width:26px"/>
+                                            <asp:Image ID="imgShareWhatsApp" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.png" style="width:26px"/>
                                         </asp:HyperLink>
                                     </td>
-                                    <td width="160px">
-                                        <asp:LinkButton ID="lnkShareEmail" runat="server" Width="150px" OnClick="lnkShareEmail_Click" class="boton_zarpe13 alinear_zarpe10">
-                                            <asp:Label ID="imgShareEmail" runat="server" ForeColor="#052943" Text="Enviar por correo" Font-Bold="true"></asp:Label>
+                                    <td width="36px" >
+                                        <asp:LinkButton ID="lnkShareEmail" runat="server" OnClick="lnkShareEmail_Click" >
+                                            <asp:Image ID="Image38" runat="server" ImageUrl="~/Styles/images/zarpe_email2.png" style="width:30px;" />
+                                            <asp:Label ID="imgShareEmail" runat="server" ForeColor="#052943" Text="Enviar por correo" style="display:none;" Font-Bold="true"></asp:Label>
                                         </asp:LinkButton>
                                     </td>
-                                    <td>
-                                        <asp:LinkButton ID="lnkShareCopyClipboard" runat="server" Width="120px" class="boton_zarpe13 alinear_zarpe10" style=" margin-top:30px;">
-                                            <asp:Label ID="lbShareCopyClipboard" runat="server" ForeColor="#052943" Text="Copiar enlace" Font-Bold="true"></asp:Label>
+                                    <td><br>
+                                        <asp:LinkButton ID="lnkShareCopyClipboard" runat="server" class="texto_4b">
+                                            <asp:Label ID="lbShareCopyClipboard" runat="server" ForeColor="#818085" Text="COPIAR ENLACE" Font-Bold="true"></asp:Label>
                                         </asp:LinkButton>
                                         <asp:TextBox ID="txtShareCopyClipboard" runat="server" ClientIDMode="Static" ReadOnly="true" Width="100%" style=" opacity: 0.0; font-size:1px; filter: alpha(opacity=0); /* For IE8 and earlier */"    />
-
+                        
                                         <div style="display:none;">
                                             <asp:HyperLink ID="lnkShareInstagram" runat="server" NavigateUrl="#" Target="_blank" style="text-decoration: none!important;">
-                                                <asp:Image ID="imgShareInstagram" runat="server" ImageUrl="~/Styles/images/compartir_instagram.jpg" style="padding:2px;width:42px"/> 
+                                                <asp:Image ID="imgShareInstagram" runat="server" ImageUrl="~/Styles/images/compartir_instagram.png" style="padding:2px;width:42px"/> 
                                             </asp:HyperLink>
                                         </div>
 
                                     </td>
                                     </tr>
 
-                                    <tr>
+                                    <%--<tr>
                                     <td colspan="7">
                                     <asp:Label ID="Label15" runat="server" ForeColor="#818284" class="texto_7 margen_top2" style="line-height: 3;"
                                     Text="Haz click sobre el medio por el que quieras compartirlo."></asp:Label>
                                     </td>
-                                    </tr>
+                                    </tr>--%>
                                 </table>
                             </li>
                             </ul>
 
-                            <br>
+            </div>
 
-                            <div class="no_ver_en_movil2"><br><br></div>
-                            <asp:Label ID="lbShareDetail" runat="server" ForeColor="#818284" class="texto_7 margen_top2" style="line-height: 1;"
+
+                            <br>
+                            <asp:Label ID="lbShareDetail" runat="server" ForeColor="#818284" class="texto_7 margen_top2" 
+                            style="line-height: 1; display:none;"
                             Text="Haz click sobre el medio por el que quieras compartirlo."></asp:Label>
                             
                             <!-- DropMenu movil --> 
@@ -1312,13 +1336,14 @@
                             </div>
 
 
-                </li>
+             </li>
         </ul>
+        <br><br>
         </div>
         </ItemTemplate>
         </asp:DataList>
 
-        <div class="col-md-6" >
+        <div class="col-md-6" style="display:none;">
             <table width="96%" align="center" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #acd6d2; 
                 text-align:center; line-height: 1.1;">
                 <tr>
@@ -1355,247 +1380,131 @@
             </table>
         </div>
 
-        </td>
-        </tr>
-
-
-        <tr>
-        <td colspan="2" >
-        <div id="herramientas" style="height:10px;" ></div> 
-        <br><br><br>
-
-        <!-- Herramientas -->
-        <asp:Image ID="Image8" runat="server" ImageUrl="~/Styles/images/zarpe_flecha3.jpg" style="width:22px;"/>
-        <asp:Label ID="Label512" runat="server" Text="Herramientas" class="titulo_8b" Font-Bold="true" ForeColor="#00a69c" ></asp:Label>
-
         <br>
-        <div class="col-md-12">
-        <asp:DataList ID="dtlTools" runat="server" ClientIDMode="Static" RepeatDirection="Horizontal" RepeatLayout="Flow" onitemdatabound="dtlShare_ItemDataBound" >
-        <ItemTemplate>
-        <asp:HiddenField ID="hdID" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "ID") %>' Visible="false" />
-        <asp:HiddenField ID="hdShareMenuMovil" runat="server" Value="1" Visible="false" />
-
-        <br><br>
-        <ul style="padding-left: 0; margin-bottom: 0; list-style: none; " class="alinear_zarpe2">
-                 <li class="dropdown" id='<%# "li-"+DataBinder.Eval(Container.DataItem, "ID") %>'>
-                    <br>
-                    <asp:Label ID="lbTitle" runat="server" ForeColor="#052844" class="texto_3" 
-                    Text='<%# DataBinder.Eval(Container.DataItem, "ContentTitle") %>' Font-Bold="true"></asp:Label>
-                    
-                    <div class="no_ver_en_movil2"><br></div>
-                    
-                    <div style="margin-top:-20px;  margin-bottom:-15px;  ">
-                    <div class="alinear_zarpe2 no_ver_en_movil2" style="background:#a7a8ac!important; width:250px; height:1px; margin-top:0px; 
-                        margin-bottom:0px; display:inline-block;"></div> 
-                    </div> 
-
-                    <div class="no_ver_en_movil2"><br></div>
-
-                        <asp:Label ID="lbDescription" runat="server" ForeColor="#808185" class="texto_7 no_ver_en_movil2" style="margin-top:-15px; "  
-                        Text='<%# DataBinder.Eval(Container.DataItem, "ContentDescription") %>'></asp:Label><br><br>
-
-                        <asp:HyperLink ID="lnkShare" runat="server"  href="#" data-toggle="dropdown" role="button" class="boton_zarpe13 ocultar_en_movil">
-                            <asp:Label ID="lbShare" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
-                        </asp:HyperLink>
-
-                        <asp:HyperLink ID="lnkShare_movil" runat="server" href='<%# "#open-modal-"+DataBinder.Eval(Container.DataItem, "ID") %>' 
-                        Width="130" class="boton_zarpe13 ver_en_movil" style="margin-top:-20px; display:none; ">
-                            <asp:Label ID="lbShare_movil" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
-                        </asp:HyperLink>
-
-                        <br>
-
-                        <div style="margin-top:10px;  margin-bottom:-5px;  ">
-                        <div class="ver_en_movil" style="background:#a7a8ac!important; width:250px; height:1px; margin-top:0px; margin-bottom:0px; 
-                        display:none;"><br>
-                        </div> 
-                        </div> 
-
-                        <asp:Label ID="Label100" runat="server" ForeColor="#808185" class="texto_7 ver_en_movil" 
-                        Text='<%# DataBinder.Eval(Container.DataItem, "ContentDescription") %>'></asp:Label><br><br>
-
-
-
-
-                        <ul class="dropdown-menu zarpe_dropdown-menu zarpe_margen_izquierda4" style="margin-top:-80px!important;">
-                            <li style="margin-left: 90px!important; ">
-                            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-                                <tr>
-                                <td>
-                                    <asp:HyperLink ID="lnkShareArrow" runat="server" NavigateUrl="#">
-                                        <asp:Image ID="imgShareArrow" runat="server" ImageUrl="~/Styles/images/zarpe_flecha4.jpg" style="width:20px;"/>
-                                    </asp:HyperLink>
-                                </td>
-                                <td>
-                                    <asp:HyperLink ID="lnkShareFacebook" runat="server" NavigateUrl="#" Target="_blank">
-                                        <asp:Image ID="imgShareFacebook" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.jpg" style="width:24px;"/>
-                                    </asp:HyperLink>
-                                </td>
-                                <td>
-                                    <asp:HyperLink ID="lnkShareMessenger" runat="server" NavigateUrl="#" Target="_blank" class="ver_en_movil">
-                                        <asp:Image ID="imgShareMessenger" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.jpg" style="width:32px;"/>
-                                    </asp:HyperLink>
-                                </td>
-                                <td>
-                                    <asp:HyperLink ID="lnkShareWhatsApp" runat="server" NavigateUrl="#" target="_blank" class="ver_en_movil" data-action="share/whatsapp/share">
-                                        <asp:Image ID="imgShareWhatsApp" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.jpg" style="width:32px"/>
-                                    </asp:HyperLink>
-                                </td>
-                                <td>
-                                    <asp:HyperLink ID="lnkShareGoogle" runat="server" NavigateUrl="#" Target="_blank">
-                                        <asp:Image ID="imgShareGoogle" runat="server" ImageUrl="~/Styles/images/zarpe_google2.jpg" style="width:32px;"/>
-                                    </asp:HyperLink>
-                                </td>
-                                <td>
-                                    <asp:HyperLink ID="lnkShareTwitter" runat="server" NavigateUrl="#" Target="_blank">
-                                        <asp:Image ID="imgShareTwitter" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.jpg" style="width:32px;"/>
-                                    </asp:HyperLink>
-                                </td>
-                                <td>
-                                    <asp:LinkButton ID="lnkShareEmail" runat="server" OnClick="lnkShareEmail_Click">
-                                        <asp:Image ID="imgShareEmail" runat="server" ImageUrl="~/Styles/images/zarpe_email2.jpg" style="width:32px;"/>
-                                    </asp:LinkButton>
-                                </td>
-                                <td>
-                                    <asp:LinkButton ID="lnkShareCopyClipboard" runat="server" Text="COPIAR ENLACE" class="texto_20" ForeColor="#042842" 
-                                     style=" text-decoration: underline; margin-left:10px;" ></asp:LinkButton>
-
-                                    <asp:TextBox ID="txtShareCopyClipboard" runat="server" ClientIDMode="Static" ReadOnly="true" Width="40%" style=" opacity: 0.0; filter: alpha(opacity=0); /* For IE8 and earlier */" />
-                                </td>
-                                </tr>
-                            </table>
-                            </li>
-
-                        </ul>
-
-
-                        <!-- DropMenu movil --> 
-                        <div id='<%# "open-modal-"+DataBinder.Eval(Container.DataItem, "ID") %>' class="modal-window ver_en_movil">                      
-                        <a href="#modal-close" class="modal-close"></a>
-                        <div>
-                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                            <td width="40px" align="center">
-                                <asp:Image ID="imgShareEmail_movil" runat="server" ImageUrl="~/Styles/images/zarpe_email2.jpg" style="width:20px;"/>
-                            </td>
-                            <td style="width:10px; height:32px;"></td>
-                            <td align="left">
-                                <asp:LinkButton ID="lnkShareEmail_movil" runat="server" OnClick="lnkShareEmail_Click">
-                                    <asp:Label ID="lbShareEmail_movil" runat="server" ForeColor="#000000" Text="Email" class="titulo_1b" ></asp:Label>
-                                </asp:LinkButton>
-                            <td>
-                            </tr>
-
-                            <tr>
-                            <td width="40px" align="center">
-                                <asp:Image ID="imgShareFacebook_movil" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.jpg" style="width:20px;"/>
-                            </td>
-                            <td style="width:10px; height:32px;"></td>
-                            <td align="left">
-                                <asp:HyperLink ID="lnkShareFacebook_movil" runat="server" NavigateUrl="#" Target="_blank">
-                                    <asp:Label ID="lbShareFacebook_movil" runat="server" ForeColor="#000000" Text="Facebook" class="titulo_1b" ></asp:Label>
-                                </asp:HyperLink>
-                            <td>
-                            </tr>
-
-                            <tr>
-                            <td width="40px" align="center">
-                                <asp:Image ID="imgShareMessenger_movil" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.jpg" style="width:20px;"/>
-                            </td>
-                            <td style="width:10px; height:32px;"></td>
-                            <td align="left">
-                                <asp:HyperLink ID="lnkShareMessenger_movil" runat="server" NavigateUrl="#" Target="_blank">
-                                    <asp:Label ID="lbShareMessenger_movil" runat="server" ForeColor="#000000" Text="Messenger" class="titulo_1b" ></asp:Label>
-                                </asp:HyperLink>
-                            <td>
-                            </tr>
-
-                            <tr>
-                            <td width="40px" align="center">
-                                <asp:Image ID="imgShareWhatsApp_movil" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.jpg" style="width:20px;"/>
-                            </td>
-                            <td style="width:10px; height:32px;"></td>
-                            <td align="left">
-                                <asp:HyperLink ID="lnkShareWhatsApp_movil" runat="server" NavigateUrl="#" Target="_blank" data-action="share/whatsapp/share">
-                                    <asp:Label ID="lbShareWhatsApp_movil" runat="server" ForeColor="#000000" Text="WhatsApp" class="titulo_1b" ></asp:Label>
-                                </asp:HyperLink>
-                            <td>
-                            </tr>
-
-                            <tr>
-                            <td width="40px" align="center">
-                                <asp:Image ID="imgShareGoogle_movil" runat="server" ImageUrl="~/Styles/images/zarpe_google2.jpg" style="width:20px;"/>
-                            </td>
-                            <td style="width:10px; height:32px;"></td>
-                            <td align="left">
-                                <asp:HyperLink ID="lnkShareGoogle_movil" runat="server" NavigateUrl="#" Target="_blank">
-                                    <asp:Label ID="lbShareGoogle_movil" runat="server" ForeColor="#000000" Text="Google" class="titulo_1b" ></asp:Label>
-                                </asp:HyperLink>
-                            <td>
-                            </tr>
-
-                            <tr>
-                            <td width="40px" align="center">
-                                <asp:Image ID="imgShareTwitter_movil" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.jpg" style="width:20px;"/>
-                            </td>
-                            <td style="width:10px; height:32px;"></td>
-                            <td align="left">
-                                <asp:HyperLink ID="lnkShareTwitter_movil" runat="server" NavigateUrl="#" Target="_blank">
-                                    <asp:Label ID="lbShareTwitter_movil" runat="server" ForeColor="#000000" Text="Twitter" class="titulo_1b" ></asp:Label>
-                                </asp:HyperLink>
-                            <td>
-                            </tr>
-
-                            <tr>
-                            <td width="40px" align="center"  valign="top">
-                                <asp:Image ID="imgShareCopyClipboard_movil" runat="server" ImageUrl="~/Styles/images/zarpe_copiar2.jpg" style="width:20px;"/>
-                            </td>
-                            <td style="width:10px; height:32px;"></td>
-                            <td align="left">
-                                <asp:HyperLink ID="lnkShareCopyClipboard_movil" runat="server" NavigateUrl="#">
-                                    <asp:Label ID="lbShareCopyClipboard_movil" runat="server" ForeColor="#000000" Text="Copiar Enlace" class="titulo_1b" ></asp:Label>
-                                    <br>
-                                    <asp:Label ID="lblShareCopyClipboard_movil" runat="server" ForeColor="#000000" Text="Mantén presionado y luego suelta para copiar el enlace" class="texto_4" ></asp:Label>
-                                </asp:HyperLink>
-                                <asp:TextBox ID="txtShareCopyClipboard_movil" runat="server" ClientIDMode="Static" ReadOnly="true" Width="40%" style=" opacity: 0.0; filter: alpha(opacity=0); /* For IE8 and earlier */"    />
-
-                            <td>
-                            </tr>
-
-                        </table>
-                            </div>
-                        </div>
-
-
-
-                </li>
-        </ul>
-
-        </ItemTemplate>
-        </asp:DataList>
-
-
         </div>
         </td>
         </tr>
 
 
+
+
+
         <tr>
         <td colspan="2" >
-        <br>
 
 
         <!-- Eventos -->
-        <div id="Div3" style="height:10px;" ></div><br><br>
-        <div class="no_ver_en_movil2"><br></div>
-        <asp:Image ID="Image18" runat="server" ImageUrl="~/Styles/images/zarpe_flecha3.jpg" style="width:22px;"/>
-        <asp:Label ID="Label99" runat="server" Text="Eventos" class="titulo_8b" Font-Bold="true" ForeColor="#00a69c" ></asp:Label>
-        <br><br>
+        <div id="Div3" style="height:10px;" ></div><br>
 
-        <div class="no_ver_en_movil2">
+        <div class="div_borde">
+        <div class="no_ver_en_movil2"><br></div>
+        <asp:Image ID="Image18" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:22px;"/>
+        <asp:Label ID="Label99" runat="server" Text="Eventos" class="titulo_8b" Font-Bold="true" ForeColor="#042842" ></asp:Label>
+        <asp:Image ID="Image40" runat="server" ImageUrl="~/Styles/images/zarpe_linea7.png"/>
+        <asp:Label ID="Label109" runat="server" Text="Haz click sobre el botón COMPARTIR para seleccionar el destino del contenido." 
+        class="texto_19" ForeColor="#818183"></asp:Label>
+
+
+        <div style="float:right; " >
+        <asp:Label ID="Label108" runat="server" ForeColor="#818284" class="texto_19" style="line-height: 3;" 
+        Text="Visita la página de eventos de tu país, "></asp:Label>
+        <asp:Label ID="Label111" runat="server" ForeColor="#818284" class="texto_19" style="line-height: 3; text-decoration:underline;" 
+        Text="dando click aquí"></asp:Label>
+        <br>
+        </div>
+
+
+
+        <!-- EVENTOS PC / nuevo diseño -->
+        <div class="zarpe_eventos">
+                <div class="zarpe_imagen_borde">
+                <asp:Image ID="imgPrincipal" class="zarpe_imagen2" runat="server" ImageUrl="~/Styles/images/Events/EVENTOS-PERU-2018-04-28.jpg"  
+                style="width:100%; max-width:240px;"/></div>
+
+                
+                <ul style="padding-left: 0; margin-bottom: 0; list-style: none;">
+                 <li class="dropdown">
+                    <br>
+                    <div style="text-align:left;">
+                    <asp:Label ID="Label97" runat="server" ForeColor="#929397" class="texto_4d" Text="Título" Font-Bold="true"></asp:Label> <br>
+                    <asp:Label ID="Label112" runat="server" ForeColor="#929397" class="texto_4d" Text="25 de Agosto" ></asp:Label> 
+                    </div>
+                    <br><br>
+                    <asp:HyperLink ID="lnkShare" runat="server" href="#" data-toggle="dropdown" role="button" class="boton_zarpe13 ocultar_en_movil">
+                        <asp:Label ID="lbShare" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+                    </asp:HyperLink>
+
+                    <asp:HyperLink ID="lnkShare_movil" runat="server" href="#modal" Width="130" class="boton_zarpe13 ver_en_movil" style="display:none;">
+                        <asp:Label ID="lbShare_movil" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+                    </asp:HyperLink>
+
+                    <ul class="dropdown-menu zarpe_dropdown-menu zarpe_margen_izquierda4444 zarpe_pc444" >
+                        <li style="text-align:left!important " class="margen_top3333">
+                                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="#" Target="_blank">
+                                            <asp:Image ID="Image41" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.png" style="width:18px;"/>
+                                        </asp:HyperLink>
+                                    </td>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink17" runat="server" NavigateUrl="#" Target="_blank">
+                                        <asp:Image ID="Image46" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.png" style="width:26px;"/></asp:HyperLink>
+                                    </td>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="#" Target="_blank" class="ver_en_movil2222">
+                                            <asp:Image ID="Image42" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.png" style="width:26px;"/>
+                                        </asp:HyperLink>
+                                    </td>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink16" runat="server" NavigateUrl="#" Target="_blank" class="ver_en_movil" data-action="share/whatsapp/share">
+                                            <asp:Image ID="Image45" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.png" style="width:26px"/>
+                                        </asp:HyperLink>
+                                    </td>
+                                    <td style="display:none; ">
+                                        <asp:HyperLink ID="lnkShareGoogle" runat="server" NavigateUrl="#" Target="_blank">
+                                        <asp:Image ID="imgShareGoogle" runat="server" ImageUrl="~/Styles/images/zarpe_google2.png" style="width:26px;"/></asp:HyperLink>
+                                    </td>
+                                    
+                                    <td>
+                                        <asp:LinkButton ID="LinkButton5" runat="server" OnClick="lnkShareEmail_Click">
+                                        <asp:Image ID="Image47" runat="server" ImageUrl="~/Styles/images/zarpe_email2.png" style="width:32px;"/>
+                                        </asp:LinkButton>
+                                    </td>
+
+                                    <td align="center"><br>
+                                    <asp:LinkButton ID="LinkButton10" runat="server" class="texto_4b">
+                                        <asp:Label ID="lbShareCopyClipboard" runat="server" ForeColor="#818085" Text="COPIAR ENLACE" Font-Bold="true"></asp:Label>
+                                    </asp:LinkButton>
+                                    <asp:TextBox ID="TextBox3" runat="server" ClientIDMode="Static" ReadOnly="true" Width="40%" style=" height:1px; opacity: 0.0;filter: alpha(opacity=0); /* For IE8 and earlier */"    />
+                                    <%--<br>
+                                    <asp:Label ID="Label96" runat="server" ForeColor="#818183" class="texto_20" 
+                                    Text="Haz click sobre el medio por el que quieras compartirlo."></asp:Label>--%>
+
+                                    </td>
+                                    </tr>
+                                </table>
+                        </li>
+
+                    </ul>
+                    <br><br>
+
+                </li>
+                </ul>
+                <br>
+       </div>
+
+
+
+
+
+
+
+
+        <%--<div class="no_ver_en_movil2">
         <asp:Label ID="Label97" runat="server" ForeColor="#818284" class="texto_7 margen_top2" style="line-height: 3;" Text="Comparte la información de los próximos eventos y haz una invitación más efectiva."></asp:Label>
         <br><br>
-        </div>
+        </div>--%>
 
         <!-- Eventos MOVIL -->
         <div class="zarpe_movil">
@@ -1759,7 +1668,7 @@
 
 
 
-        <div class="">
+        <div style="display:none " >
         <!-- EVENTOS PC-->
 <article id="slider3" class=" zarpe_pc">
 <input checked type='radio' name='slider3' id='slide20' style="display:none;"/>
@@ -2300,8 +2209,243 @@
 
         </div>
 
+
+
+        </div>
         </td>
         </tr>
+
+
+
+
+
+
+        <tr>
+        <td colspan="2" >
+        <div id="herramientas" style="height:10px;" ></div> 
+        <br><br><br>
+
+        <!-- Herramientas -->
+        <asp:Image ID="Image8" runat="server" ImageUrl="~/Styles/images/zarpe_flecha3.jpg" style="width:22px;"/>
+        <asp:Label ID="Label512" runat="server" Text="Herramientas" class="titulo_8b" Font-Bold="true" ForeColor="#00a69c" ></asp:Label>
+
+        <br>
+        <div class="col-md-12">
+        <asp:DataList ID="dtlTools" runat="server" ClientIDMode="Static" RepeatDirection="Horizontal" RepeatLayout="Flow" onitemdatabound="dtlShare_ItemDataBound" >
+        <ItemTemplate>
+        <asp:HiddenField ID="hdID" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "ID") %>' Visible="false" />
+        <asp:HiddenField ID="hdShareMenuMovil" runat="server" Value="1" Visible="false" />
+
+        <br><br>
+        <ul style="padding-left: 0; margin-bottom: 0; list-style: none; " class="alinear_zarpe2">
+                 <li class="dropdown" id='<%# "li-"+DataBinder.Eval(Container.DataItem, "ID") %>'>
+                    <br>
+                    <asp:Label ID="lbTitle" runat="server" ForeColor="#052844" class="texto_3" 
+                    Text='<%# DataBinder.Eval(Container.DataItem, "ContentTitle") %>' Font-Bold="true"></asp:Label>
+                    
+                    <div class="no_ver_en_movil2"><br></div>
+                    
+                    <div style="margin-top:-20px;  margin-bottom:-15px;  ">
+                    <div class="alinear_zarpe2 no_ver_en_movil2" style="background:#a7a8ac!important; width:250px; height:1px; margin-top:0px; 
+                        margin-bottom:0px; display:inline-block;"></div> 
+                    </div> 
+
+                    <div class="no_ver_en_movil2"><br></div>
+
+                        <asp:Label ID="lbDescription" runat="server" ForeColor="#808185" class="texto_7 no_ver_en_movil2" style="margin-top:-15px; "  
+                        Text='<%# DataBinder.Eval(Container.DataItem, "ContentDescription") %>'></asp:Label><br><br>
+
+                        <asp:HyperLink ID="lnkShare" runat="server"  href="#" data-toggle="dropdown" role="button" class="boton_zarpe13 ocultar_en_movil">
+                            <asp:Label ID="lbShare" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+                        </asp:HyperLink>
+
+                        <asp:HyperLink ID="lnkShare_movil" runat="server" href='<%# "#open-modal-"+DataBinder.Eval(Container.DataItem, "ID") %>' 
+                        Width="130" class="boton_zarpe13 ver_en_movil" style="margin-top:-20px; display:none; ">
+                            <asp:Label ID="lbShare_movil" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+                        </asp:HyperLink>
+
+                        <br>
+
+                        <div style="margin-top:10px;  margin-bottom:-5px;  ">
+                        <div class="ver_en_movil" style="background:#a7a8ac!important; width:250px; height:1px; margin-top:0px; margin-bottom:0px; 
+                        display:none;"><br>
+                        </div> 
+                        </div> 
+
+                        <asp:Label ID="Label100" runat="server" ForeColor="#808185" class="texto_7 ver_en_movil" 
+                        Text='<%# DataBinder.Eval(Container.DataItem, "ContentDescription") %>'></asp:Label><br><br>
+
+
+
+
+                        <ul class="dropdown-menu zarpe_dropdown-menu zarpe_margen_izquierda4" style="margin-top:-80px!important;">
+                            <li style="margin-left: 90px!important; ">
+                            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                <td>
+                                    <asp:HyperLink ID="lnkShareArrow" runat="server" NavigateUrl="#">
+                                        <asp:Image ID="imgShareArrow" runat="server" ImageUrl="~/Styles/images/zarpe_flecha4.jpg" style="width:20px;"/>
+                                    </asp:HyperLink>
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="lnkShareFacebook" runat="server" NavigateUrl="#" Target="_blank">
+                                        <asp:Image ID="imgShareFacebook" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.jpg" style="width:24px;"/>
+                                    </asp:HyperLink>
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="lnkShareMessenger" runat="server" NavigateUrl="#" Target="_blank" class="ver_en_movil">
+                                        <asp:Image ID="imgShareMessenger" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.jpg" style="width:32px;"/>
+                                    </asp:HyperLink>
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="lnkShareWhatsApp" runat="server" NavigateUrl="#" target="_blank" class="ver_en_movil" data-action="share/whatsapp/share">
+                                        <asp:Image ID="imgShareWhatsApp" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.jpg" style="width:32px"/>
+                                    </asp:HyperLink>
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="lnkShareGoogle" runat="server" NavigateUrl="#" Target="_blank">
+                                        <asp:Image ID="imgShareGoogle" runat="server" ImageUrl="~/Styles/images/zarpe_google2.jpg" style="width:32px;"/>
+                                    </asp:HyperLink>
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="lnkShareTwitter" runat="server" NavigateUrl="#" Target="_blank">
+                                        <asp:Image ID="imgShareTwitter" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.jpg" style="width:32px;"/>
+                                    </asp:HyperLink>
+                                </td>
+                                <td>
+                                    <asp:LinkButton ID="lnkShareEmail" runat="server" OnClick="lnkShareEmail_Click">
+                                        <asp:Image ID="imgShareEmail" runat="server" ImageUrl="~/Styles/images/zarpe_email2.jpg" style="width:32px;"/>
+                                    </asp:LinkButton>
+                                </td>
+                                <td>
+                                    <asp:LinkButton ID="lnkShareCopyClipboard" runat="server" Text="COPIAR ENLACE" class="texto_20" ForeColor="#042842" 
+                                     style=" text-decoration: underline; margin-left:10px;" ></asp:LinkButton>
+
+                                    <asp:TextBox ID="txtShareCopyClipboard" runat="server" ClientIDMode="Static" ReadOnly="true" Width="40%" style=" opacity: 0.0; filter: alpha(opacity=0); /* For IE8 and earlier */" />
+                                </td>
+                                </tr>
+                            </table>
+                            </li>
+
+                        </ul>
+
+
+                        <!-- DropMenu movil --> 
+                        <div id='<%# "open-modal-"+DataBinder.Eval(Container.DataItem, "ID") %>' class="modal-window ver_en_movil">                      
+                        <a href="#modal-close" class="modal-close"></a>
+                        <div>
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                            <td width="40px" align="center">
+                                <asp:Image ID="imgShareEmail_movil" runat="server" ImageUrl="~/Styles/images/zarpe_email2.jpg" style="width:20px;"/>
+                            </td>
+                            <td style="width:10px; height:32px;"></td>
+                            <td align="left">
+                                <asp:LinkButton ID="lnkShareEmail_movil" runat="server" OnClick="lnkShareEmail_Click">
+                                    <asp:Label ID="lbShareEmail_movil" runat="server" ForeColor="#000000" Text="Email" class="titulo_1b" ></asp:Label>
+                                </asp:LinkButton>
+                            <td>
+                            </tr>
+
+                            <tr>
+                            <td width="40px" align="center">
+                                <asp:Image ID="imgShareFacebook_movil" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.jpg" style="width:20px;"/>
+                            </td>
+                            <td style="width:10px; height:32px;"></td>
+                            <td align="left">
+                                <asp:HyperLink ID="lnkShareFacebook_movil" runat="server" NavigateUrl="#" Target="_blank">
+                                    <asp:Label ID="lbShareFacebook_movil" runat="server" ForeColor="#000000" Text="Facebook" class="titulo_1b" ></asp:Label>
+                                </asp:HyperLink>
+                            <td>
+                            </tr>
+
+                            <tr>
+                            <td width="40px" align="center">
+                                <asp:Image ID="imgShareMessenger_movil" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.jpg" style="width:20px;"/>
+                            </td>
+                            <td style="width:10px; height:32px;"></td>
+                            <td align="left">
+                                <asp:HyperLink ID="lnkShareMessenger_movil" runat="server" NavigateUrl="#" Target="_blank">
+                                    <asp:Label ID="lbShareMessenger_movil" runat="server" ForeColor="#000000" Text="Messenger" class="titulo_1b" ></asp:Label>
+                                </asp:HyperLink>
+                            <td>
+                            </tr>
+
+                            <tr>
+                            <td width="40px" align="center">
+                                <asp:Image ID="imgShareWhatsApp_movil" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.jpg" style="width:20px;"/>
+                            </td>
+                            <td style="width:10px; height:32px;"></td>
+                            <td align="left">
+                                <asp:HyperLink ID="lnkShareWhatsApp_movil" runat="server" NavigateUrl="#" Target="_blank" data-action="share/whatsapp/share">
+                                    <asp:Label ID="lbShareWhatsApp_movil" runat="server" ForeColor="#000000" Text="WhatsApp" class="titulo_1b" ></asp:Label>
+                                </asp:HyperLink>
+                            <td>
+                            </tr>
+
+                            <tr>
+                            <td width="40px" align="center">
+                                <asp:Image ID="imgShareGoogle_movil" runat="server" ImageUrl="~/Styles/images/zarpe_google2.jpg" style="width:20px;"/>
+                            </td>
+                            <td style="width:10px; height:32px;"></td>
+                            <td align="left">
+                                <asp:HyperLink ID="lnkShareGoogle_movil" runat="server" NavigateUrl="#" Target="_blank">
+                                    <asp:Label ID="lbShareGoogle_movil" runat="server" ForeColor="#000000" Text="Google" class="titulo_1b" ></asp:Label>
+                                </asp:HyperLink>
+                            <td>
+                            </tr>
+
+                            <tr>
+                            <td width="40px" align="center">
+                                <asp:Image ID="imgShareTwitter_movil" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.jpg" style="width:20px;"/>
+                            </td>
+                            <td style="width:10px; height:32px;"></td>
+                            <td align="left">
+                                <asp:HyperLink ID="lnkShareTwitter_movil" runat="server" NavigateUrl="#" Target="_blank">
+                                    <asp:Label ID="lbShareTwitter_movil" runat="server" ForeColor="#000000" Text="Twitter" class="titulo_1b" ></asp:Label>
+                                </asp:HyperLink>
+                            <td>
+                            </tr>
+
+                            <tr>
+                            <td width="40px" align="center"  valign="top">
+                                <asp:Image ID="imgShareCopyClipboard_movil" runat="server" ImageUrl="~/Styles/images/zarpe_copiar2.jpg" style="width:20px;"/>
+                            </td>
+                            <td style="width:10px; height:32px;"></td>
+                            <td align="left">
+                                <asp:HyperLink ID="lnkShareCopyClipboard_movil" runat="server" NavigateUrl="#">
+                                    <asp:Label ID="lbShareCopyClipboard_movil" runat="server" ForeColor="#000000" Text="Copiar Enlace" class="titulo_1b" ></asp:Label>
+                                    <br>
+                                    <asp:Label ID="lblShareCopyClipboard_movil" runat="server" ForeColor="#000000" Text="Mantén presionado y luego suelta para copiar el enlace" class="texto_4" ></asp:Label>
+                                </asp:HyperLink>
+                                <asp:TextBox ID="txtShareCopyClipboard_movil" runat="server" ClientIDMode="Static" ReadOnly="true" Width="40%" style=" opacity: 0.0; filter: alpha(opacity=0); /* For IE8 and earlier */"    />
+
+                            <td>
+                            </tr>
+
+                        </table>
+                            </div>
+                        </div>
+
+
+
+                </li>
+        </ul>
+
+        </ItemTemplate>
+        </asp:DataList>
+
+
+        </div>
+        </td>
+        </tr>
+
+
+        
+
+
+
+
 
 
 

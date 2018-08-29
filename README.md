@@ -15,7 +15,6 @@
 <!-- START - Heateor Open Graph Meta Tags 1.1.5 -->
 
 
-
     <!-- START - FACEBOOK  -->
     <meta name="description" content="La plataforma que le ayudará a hacer crecer su negocio está aquí. Ingrese hoy y comparta nuestro contenido con todos para llegar más lejos."/>
     <meta property="og:locale" content="es_ES"/>
@@ -372,6 +371,11 @@
 
 
 
+        <div style="float:right;" >
+        <asp:HyperLink ID="HyperLink35" runat="server" href="#">
+        <asp:Label ID="Label148" runat="server" Text="Ver más" style="text-decoration:underline;" Font-Bold="true"  
+        class="titulo_8d" ForeColor="#808185"></asp:Label>
+        </asp:HyperLink>
         </div>
 
 
@@ -511,7 +515,7 @@
         </ItemTemplate>
         </asp:DataList>
 
-        <br><br><br>
+        <br>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
             <tr>
             <td align="center">
@@ -775,13 +779,11 @@
 
 
 
-
+        <!-- Productos -->
         <tr>
         <td colspan="2" > 
         <div id="productos" style="height:10px;" ></div>
         <br>
-
-        <!-- Productos -->
         <div class="div_borde">
         <asp:Image ID="Image300" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:22px;"/>
         <asp:Label ID="Label510" runat="server" Text="Productos" class="titulo_8b" Font-Bold="true" ForeColor="#042842" ></asp:Label>
@@ -1388,16 +1390,12 @@
 
 
 
-
+        <!-- Eventos -->
         <tr>
         <td colspan="2" >
-
-
-        <!-- Eventos -->
         <div id="Div3" style="height:10px;" ></div><br>
 
-        <div class="div_borde">
-        <div class="no_ver_en_movil2"><br></div>
+        <div class="div_borde" style="padding-bottom:30px;">
         <asp:Image ID="Image18" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:22px;"/>
         <asp:Label ID="Label99" runat="server" Text="Eventos" class="titulo_8b" Font-Bold="true" ForeColor="#042842" ></asp:Label>
         <asp:Image ID="Image40" runat="server" ImageUrl="~/Styles/images/zarpe_linea7.png"/>
@@ -1406,13 +1404,13 @@
 
 
         <div style="float:right; " >
-        <asp:Label ID="Label108" runat="server" ForeColor="#818284" class="texto_19" style="line-height: 3;" 
+        <asp:Label ID="Label108" runat="server" ForeColor="#818284" class="texto_19"
         Text="Visita la página de eventos de tu país, "></asp:Label>
-        <asp:Label ID="Label111" runat="server" ForeColor="#818284" class="texto_19" style="line-height: 3; text-decoration:underline;" 
+        <asp:Label ID="Label111" runat="server" ForeColor="#818284" class="texto_19" style="text-decoration:underline;" 
         Text="dando click aquí"></asp:Label>
         <br>
         </div>
-
+        <br>
 
 
         <!-- EVENTOS PC / nuevo diseño -->
@@ -1420,7 +1418,6 @@
                 <div class="zarpe_imagen_borde">
                 <asp:Image ID="imgPrincipal" class="zarpe_imagen2" runat="server" ImageUrl="~/Styles/images/Events/EVENTOS-PERU-2018-04-28.jpg"  
                 style="width:100%; max-width:240px;"/></div>
-
                 
                 <ul style="padding-left: 0; margin-bottom: 0; list-style: none;">
                  <li class="dropdown">
@@ -1439,7 +1436,7 @@
                     </asp:HyperLink>
 
                     <ul class="dropdown-menu zarpe_dropdown-menu zarpe_margen_izquierda4444 zarpe_pc444" >
-                        <li style="text-align:left!important " class="margen_top3333">
+                        <li>
                                 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                     <td>
@@ -1487,15 +1484,33 @@
                         </li>
 
                     </ul>
-                    <br><br>
+                    
 
                 </li>
-                </ul>
-                <br>
-       </div>
+                </ul>               
+        </div>
 
-
-
+       
+        <div class="zarpe_eventos">
+                <div class="zarpe_imagen_borde">
+                <asp:Image ID="Image49" class="zarpe_imagen2" runat="server" ImageUrl="~/Styles/images/Events/EVENTOS-PERU-2018-04-28.jpg"  
+                style="width:100%; max-width:240px;"/></div>
+        </div>
+        <div class="zarpe_eventos">
+                <div class="zarpe_imagen_borde">
+                <asp:Image ID="Image50" class="zarpe_imagen2" runat="server" ImageUrl="~/Styles/images/Events/EVENTOS-PERU-2018-04-28.jpg"  
+                style="width:100%; max-width:240px;"/></div>
+        </div>
+        <div class="zarpe_eventos">
+                <div class="zarpe_imagen_borde">
+                <asp:Image ID="Image51" class="zarpe_imagen2" runat="server" ImageUrl="~/Styles/images/Events/EVENTOS-PERU-2018-04-28.jpg"  
+                style="width:100%; max-width:240px;"/></div>
+        </div>
+        <div class="zarpe_eventos">
+                <div class="zarpe_imagen_borde">
+                <asp:Image ID="Image52" class="zarpe_imagen2" runat="server" ImageUrl="~/Styles/images/Events/EVENTOS-PERU-2018-04-28.jpg"  
+                style="width:100%; max-width:240px;"/></div>
+        </div>
 
 
 
@@ -2210,6 +2225,14 @@
         </div>
 
 
+        <br>
+        <div style="float:right;" ><br><br>
+        <asp:HyperLink ID="HyperLink36" runat="server" href="#">
+        <asp:Label ID="Label149" runat="server" Text="Ver más" style="text-decoration:underline;" Font-Bold="true"  
+        class="titulo_8d" ForeColor="#808185"></asp:Label>
+        </asp:HyperLink>
+        </div>
+
 
         </div>
         </td>
@@ -2218,29 +2241,277 @@
 
 
 
-
-
+        <!-- Negocio -->
         <tr>
         <td colspan="2" >
-        <div id="herramientas" style="height:10px;" ></div> 
-        <br><br><br>
+        <div id="Negocio" style="height:10px;" ></div>
+        <br><br> 
+        <asp:Label ID="Label131" runat="server" Text="ACTIVA TU NEGOCIO" class="titulo_4b" Font-Bold="true" ForeColor="#00a69c" ></asp:Label> 
+        <br><br>
+        <div class="div_borde" style="padding-bottom:30px;">
+        <br>
 
-        <!-- Herramientas -->
-        <asp:Image ID="Image8" runat="server" ImageUrl="~/Styles/images/zarpe_flecha3.jpg" style="width:22px;"/>
-        <asp:Label ID="Label512" runat="server" Text="Herramientas" class="titulo_8b" Font-Bold="true" ForeColor="#00a69c" ></asp:Label>
+        <div class="ancho_div_negocio_1" style="line-height:1.2;">
+        <asp:Image ID="Image53" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:16px;"/>
+        <asp:Label ID="Label113" runat="server" Text="Afiliación rápida" class="titulo_8c" 
+        Font-Bold="true" ForeColor="#042842" ></asp:Label>
+        <div style="background:#b9e3e1; width:100%; height:1px; margin-top:7px; margin-bottom:7px; "></div> 
+        <asp:Label ID="Label115" runat="server" Text="Envía un formulario de inscripción para que las personas se afilien en tu equipo." 
+        class="texto_7" ForeColor="#818183"></asp:Label>      
+
+        <ul style="padding-left: 0; margin-bottom: 0; list-style: none;">  <br>
+            <li class="dropdown" >
+ 
+            <asp:HyperLink ID="HyperLink18" runat="server"  href="#" data-toggle="dropdown" role="button" class="boton_zarpe13 ocultar_en_movil">
+                <asp:Label ID="Label116" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+            </asp:HyperLink>
+            <asp:HyperLink ID="HyperLink19" runat="server" href="#modal_negocio"  
+            Width="130" class="boton_zarpe13 ver_en_movil" style="display:none;">
+                        <asp:Label ID="Label117" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+            </asp:HyperLink>
+
+                <!-- DropMenu PC --> 
+                <ul class="dropdown-menu zarpe_dropdown-menu zarpe_margen_izquierda444" >
+                <li >
+                    <table width="100%" align="left" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                        <td >
+                            <asp:HyperLink ID="HyperLink20" runat="server" NavigateUrl="#" Target="_blank">
+                                <asp:Image ID="Image54" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.png" style="width:18px;"/>
+                            </asp:HyperLink>
+                        </td>
+                        <td  style="display:none; ">
+                            <asp:HyperLink ID="HyperLink21" runat="server" NavigateUrl="#" Target="_blank">
+                                <asp:Image ID="Image57" runat="server" ImageUrl="~/Styles/images/zarpe_google2.png" style="width:26px;"/>
+                            </asp:HyperLink>
+                        </td>
+                        <td >
+                            <asp:HyperLink ID="HyperLink22" runat="server" NavigateUrl="#" Target="_blank">
+                                <asp:Image ID="Image58" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.png" style="width:26px;"/>
+                            </asp:HyperLink>
+                        </td>
+                                    
+                        <td >
+                            <asp:HyperLink ID="HyperLink23" runat="server" NavigateUrl="#" class="ver_en_movil2222">
+                                <asp:Image ID="Image93" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.png" style="width:26px;"/>
+                            </asp:HyperLink>
+                        </td>
+                        <td>
+                            <asp:HyperLink ID="HyperLink24" runat="server" NavigateUrl="#" Target="_blank" class="ver_en_movil" data-action="share/whatsapp/share">
+                                <asp:Image ID="Image60" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.png" style="width:22px"/>
+                            </asp:HyperLink>
+                        </td>
+                        <td >
+                            <asp:LinkButton ID="LinkButton11" runat="server" OnClick="lnkShareEmail_Click" >
+                                <asp:Image ID="Image38" runat="server" ImageUrl="~/Styles/images/zarpe_email2.png" style="width:26px;" />
+                                <asp:Label ID="Label118" runat="server" ForeColor="#052943" Text="Enviar por correo" style="display:none;" Font-Bold="true"></asp:Label>
+                            </asp:LinkButton>
+                        </td>
+                        <td><br>
+                            <asp:LinkButton ID="LinkButton12" runat="server" class="texto_4b">
+                                <asp:Label ID="Label119" runat="server" ForeColor="#818085" Text="COPIAR ENLACE" Font-Bold="true"></asp:Label>
+                            </asp:LinkButton>
+                            <asp:TextBox ID="TextBox4" runat="server" ClientIDMode="Static" ReadOnly="true" Width="100%" style=" opacity: 0.0; font-size:1px; filter: alpha(opacity=0); /* For IE8 and earlier */"    />
+                        
+                            <div style="display:none;">
+                                <asp:HyperLink ID="lnkShareInstagram" runat="server" NavigateUrl="#" Target="_blank" style="text-decoration: none!important;">
+                                    <asp:Image ID="imgShareInstagram" runat="server" ImageUrl="~/Styles/images/compartir_instagram.png" style="padding:2px;width:42px"/> 
+                                </asp:HyperLink>
+                            </div>
+
+                        </td>
+                        </tr>
+                    </table>
+                </li>
+                </ul>
+                         
+                <!-- DropMenu movil --> 
+                <div id="modal_negocio" class="modal-window ver_en_movil">
+                <a href="#modal-close" class="modal-close"></a>
+                <div>
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                    <td width="40px" align="center">
+                        <asp:Image ID="Image61" runat="server" ImageUrl="~/Styles/images/zarpe_email2.jpg" style="width:20px;"/>
+                    </td>
+                    <td style="width:10px; height:32px;"></td>
+                    <td align="left">
+                        <asp:LinkButton ID="LinkButton13" runat="server" OnClick="lnkShareEmail_Click">
+                            <asp:Label ID="Label120" runat="server" ForeColor="#000000" Text="Email" class="titulo_1b" ></asp:Label>
+                        </asp:LinkButton>
+                    <td>
+                    </tr>
+
+                    <tr>
+                    <td width="40px" align="center">
+                        <asp:Image ID="Image63" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.jpg" style="width:20px;"/>
+                    </td>
+                    <td style="width:10px; height:32px;"></td>
+                    <td align="left">
+                        <asp:HyperLink ID="HyperLink25" runat="server" NavigateUrl="#" Target="_blank">
+                            <asp:Label ID="Label121" runat="server" ForeColor="#000000" Text="Facebook" class="titulo_1b" ></asp:Label>
+                        </asp:HyperLink>
+                    <td>
+                    </tr>
+
+                    <tr>
+                    <td width="40px" align="center">
+                        <asp:Image ID="Image64" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.jpg" style="width:20px;"/>
+                    </td>
+                    <td style="width:10px; height:32px;"></td>
+                    <td align="left">
+                        <asp:HyperLink ID="HyperLink26" runat="server" NavigateUrl="#" Target="_blank">
+                            <asp:Label ID="Label122" runat="server" ForeColor="#000000" Text="Messenger" class="titulo_1b" ></asp:Label>
+                        </asp:HyperLink>
+                    <td>
+                    </tr>
+
+                    <tr>
+                    <td width="40px" align="center">
+                        <asp:Image ID="Image65" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.jpg" style="width:20px;"/>
+                    </td>
+                    <td style="width:10px; height:32px;"></td>
+                    <td align="left">
+                        <asp:HyperLink ID="HyperLink27" runat="server" NavigateUrl="#" Target="_blank" data-action="share/whatsapp/share">
+                            <asp:Label ID="Label130" runat="server" ForeColor="#000000" Text="WhatsApp" class="titulo_1b" ></asp:Label>
+                        </asp:HyperLink>
+                    <td>
+                    </tr>
+
+                    <tr>
+                    <td width="40px" align="center">
+                        <asp:Image ID="Image66" runat="server" ImageUrl="~/Styles/images/zarpe_google2.jpg" style="width:20px;"/>
+                    </td>
+                    <td style="width:10px; height:32px;"></td>
+                    <td align="left">
+                        <asp:HyperLink ID="HyperLink28" runat="server" NavigateUrl="#" Target="_blank">
+                            <asp:Label ID="Label132" runat="server" ForeColor="#000000" Text="Google" class="titulo_1b" ></asp:Label>
+                        </asp:HyperLink>
+                    <td>
+                    </tr>
+
+                    <tr>
+                    <td width="40px" align="center">
+                        <asp:Image ID="Image67" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.jpg" style="width:20px;"/>
+                    </td>
+                    <td style="width:10px; height:32px;"></td>
+                    <td align="left">
+                        <asp:HyperLink ID="HyperLink29" runat="server" NavigateUrl="#" Target="_blank">
+                            <asp:Label ID="Label135" runat="server" ForeColor="#000000" Text="Twitter" class="titulo_1b" ></asp:Label>
+                        </asp:HyperLink>
+                    <td>
+                    </tr>
+
+                    <tr>
+                    <td width="40px" align="center" valign="top" >
+                        <asp:Image ID="Image70" runat="server" ImageUrl="~/Styles/images/zarpe_copiar2.jpg" style="width:20px;"/>
+                    </td>
+                    <td style="width:10px; height:32px;"></td>
+                    <td align="left">
+                        <asp:HyperLink ID="HyperLink30" runat="server" NavigateUrl="#">
+                            <asp:Label ID="Label136" runat="server" ForeColor="#000000" Text="Copiar Enlace" class="titulo_1b" ></asp:Label>
+                            <br>
+                            <asp:Label ID="Label137" runat="server" ForeColor="#000000" Text="Mantén presionado y luego suelta para copiar el enlace" class="texto_4" ></asp:Label>
+                        </asp:HyperLink>
+                        <asp:TextBox ID="TextBox5" runat="server" ClientIDMode="Static" ReadOnly="true" Width="40%" style=" opacity: 0.0; filter: alpha(opacity=0); /* For IE8 and earlier */"    />
+
+                    <td>
+                    </tr>
+
+                </table>
+                    </div>
+                </div>
+
+             </li>
+        </ul>
+        </div>
+
+
+        <div class="ancho_div_negocio_2" >
+        <asp:Image ID="Image71" runat="server" ImageUrl="~/Styles/images/zarpe_linea8.png"/>
+        </div>
+        
+
+        <div class="ancho_div_negocio_1" style="line-height:1.2;">
+        <asp:Image ID="Image72" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:16px;"/>
+        <asp:Label ID="Label138" runat="server" Text="Presentación de Oportunidad" class="titulo_8c" 
+        Font-Bold="true" ForeColor="#042842" ></asp:Label>
+        <div style="background:#b9e3e1; width:100%; height:1px; margin-top:7px; margin-bottom:7px; "></div> 
+        <asp:Label ID="Label139" runat="server" Text="Comparte o descarga la presentación de oportunidad y sácale más provecho a esta herramienta." 
+        class="texto_7" ForeColor="#818183"></asp:Label>      
+
+        <ul style="padding-left: 0; margin-bottom: 0; list-style: none;">  <br>
+            <li class="dropdown" >
+            <asp:HyperLink ID="HyperLink31" runat="server"  href="#" data-toggle="dropdown" role="button" class="boton_zarpe13 ocultar_en_movil">
+                <asp:Label ID="Label140" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+            </asp:HyperLink>
+            <asp:HyperLink ID="HyperLink32" runat="server" href="#modal_negocio"  
+            Width="130" class="boton_zarpe13 ver_en_movil" style="display:none;">
+                        <asp:Label ID="Label141" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+            </asp:HyperLink>
+             </li>
+        </ul>
+        </div>
+
+
+        <div class="ancho_div_negocio_2" >
+        <asp:Image ID="Image73" runat="server" ImageUrl="~/Styles/images/zarpe_linea8.png"/>
+        </div>
+
+
+
+        <div class="ancho_div_negocio_1" style="line-height:1.2;">
+        <asp:Image ID="Image74" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:16px;"/>
+        <asp:Label ID="Label142" runat="server" Text="Plan de Compensación" class="titulo_8c" 
+        Font-Bold="true" ForeColor="#042842" ></asp:Label>
+        <div style="background:#b9e3e1; width:100%; height:1px; margin-top:7px; margin-bottom:7px; "></div> 
+        <asp:Label ID="Label143" runat="server" class="texto_7" ForeColor="#818183" 
+        Text="Comparte o descarga el plan de compensación y hazle saber a todos los beneficios de la compañia." ></asp:Label>      
+
+        <ul style="padding-left: 0; margin-bottom: 0; list-style: none;">  <br>
+            <li class="dropdown" >
+            <asp:HyperLink ID="HyperLink33" runat="server"  href="#" data-toggle="dropdown" role="button" class="boton_zarpe13 ocultar_en_movil">
+                <asp:Label ID="Label144" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+            </asp:HyperLink>
+            <asp:HyperLink ID="HyperLink34" runat="server" href="#modal_negocio"  
+            Width="130" class="boton_zarpe13 ver_en_movil" style="display:none;">
+                        <asp:Label ID="Label146" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+            </asp:HyperLink>
+             </li>
+        </ul>
+        </div>
+
+
 
         <br>
-        <div class="col-md-12">
+        </div>
+        </td>
+        </tr>
+
+
+
+
+        <!-- Herramientas / anterior -->
+        <tr style="display:none">
+        <td colspan="2" >
+        <div id="herramientas" style="height:10px;" ></div> 
+        <br>
+        
+        <asp:Label ID="Label147" runat="server" Text="ACTIVA TU NEGOCIO" class="titulo_4b" Font-Bold="true" ForeColor="#00a69c" ></asp:Label> 
+        <br><br>
+        <div class="div_borde" style="padding-bottom:30px;">
+
+        
         <asp:DataList ID="dtlTools" runat="server" ClientIDMode="Static" RepeatDirection="Horizontal" RepeatLayout="Flow" onitemdatabound="dtlShare_ItemDataBound" >
         <ItemTemplate>
         <asp:HiddenField ID="hdID" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "ID") %>' Visible="false" />
         <asp:HiddenField ID="hdShareMenuMovil" runat="server" Value="1" Visible="false" />
-
-        <br><br>
+        <div class="ancho_div_negocio_1" style="line-height:1.2;">
         <ul style="padding-left: 0; margin-bottom: 0; list-style: none; " class="alinear_zarpe2">
                  <li class="dropdown" id='<%# "li-"+DataBinder.Eval(Container.DataItem, "ID") %>'>
                     <br>
-                    <asp:Label ID="lbTitle" runat="server" ForeColor="#052844" class="texto_3" 
+                    <asp:Image ID="Image74" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:16px;"/>
+                    <asp:Label ID="lbTitle" runat="server" ForeColor="#052844" class="titulo_8c" 
                     Text='<%# DataBinder.Eval(Container.DataItem, "ContentTitle") %>' Font-Bold="true"></asp:Label>
                     
                     <div class="no_ver_en_movil2"><br></div>
@@ -2431,17 +2702,141 @@
 
                 </li>
         </ul>
-
+        </div> 
         </ItemTemplate>
         </asp:DataList>
 
+        
 
-        </div>
+
+
+        </div> 
         </td>
         </tr>
 
 
         
+
+
+
+
+
+        <!-- Descargar -->
+        <tr>
+        <td colspan="2" >
+        <div id="Contenido" style="height:10px;" ></div><br><br>
+        <asp:Label ID="Label160" runat="server" Text="DESCARGAR CONTENIDO" class="titulo_4b" Font-Bold="true" ForeColor="#00a69c" ></asp:Label>
+        <br><br>
+
+        <div class="div_borde" style="padding-bottom:40px;">
+
+        <!-- PC -->
+        <div class="zarpe_descarga" style="text-align:center;">
+                <asp:Image ID="Image77" runat="server" ImageUrl="~/Styles/images/Zarpe_descarga.png"  
+                style="width:100%; max-width:200px;"/>     
+                <asp:Label ID="Label154" runat="server" ForeColor="#929397" class=".titulo_8c" Text="Título" Font-Bold="true"></asp:Label>         
+                <ul style="padding-left: 0; margin-bottom: 0; list-style: none;">
+                 <li class="dropdown">
+                    <br><br>
+                    <asp:HyperLink ID="HyperLink37" runat="server" href="#" data-toggle="dropdown" role="button" class="boton_zarpe13">
+                        <asp:Label ID="Label156" runat="server" ForeColor="#052943" Text="DESCARGAR" Font-Bold="true"></asp:Label>
+                    </asp:HyperLink>
+                    <br><br><br>
+                    <asp:HyperLink ID="HyperLink45" runat="server" href="#" data-toggle="dropdown" role="button" class="boton_zarpe13 ocultar_en_movil">
+                        <asp:Label ID="Label150" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+                    </asp:HyperLink>
+                    
+
+                    <asp:HyperLink ID="HyperLink38" runat="server" href="#modal" Width="130" class="boton_zarpe13 ver_en_movil" style="display:none;">
+                        <asp:Label ID="Label157" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
+                    </asp:HyperLink>
+
+                    <ul class="dropdown-menu zarpe_dropdown-menu" style="padding-top: 10px!important;min-width: 100%!important;line-height:1;">
+                        <li>
+                                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink39" runat="server" NavigateUrl="#" Target="_blank">
+                                            <asp:Image ID="Image78" runat="server" ImageUrl="~/Styles/images/zarpe_facebook2.png" style="width:18px;"/>
+                                        </asp:HyperLink>
+                                    </td>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink40" runat="server" NavigateUrl="#" Target="_blank">
+                                        <asp:Image ID="Image79" runat="server" ImageUrl="~/Styles/images/zarpe_twitter2.png" style="width:26px;"/></asp:HyperLink>
+                                    </td>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink41" runat="server" NavigateUrl="#" Target="_blank" class="ver_en_movil2222">
+                                            <asp:Image ID="Image80" runat="server" ImageUrl="~/Styles/images/zarpe_msn2.png" style="width:26px;"/>
+                                        </asp:HyperLink>
+                                    </td>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink42" runat="server" NavigateUrl="#" Target="_blank" class="ver_en_movil" data-action="share/whatsapp/share">
+                                            <asp:Image ID="Image81" runat="server" ImageUrl="~/Styles/images/zarpe_whasap2.png" style="width:26px"/>
+                                        </asp:HyperLink>
+                                    </td>
+                                    
+                                    <td>
+                                        <asp:LinkButton ID="LinkButton14" runat="server" OnClick="lnkShareEmail_Click">
+                                        <asp:Image ID="Image83" runat="server" ImageUrl="~/Styles/images/zarpe_email2.png" style="width:26px;"/>
+                                        </asp:LinkButton>
+                                    </td>
+
+                                    <td align="center">
+                                    <asp:LinkButton ID="LinkButton15" runat="server" class="texto_4b">
+                                        <asp:Label ID="Label158" runat="server" ForeColor="#818085" Text="COPIAR<br>ENLACE" Font-Bold="true"></asp:Label>
+                                    </asp:LinkButton>
+                                    </td>
+                                    </tr>
+                                </table>
+                        </li>
+
+                    </ul>
+                
+
+                </li>
+                </ul>               
+        </div>
+
+       
+        <div class="zarpe_descarga">
+                <asp:Image ID="Image8" runat="server" ImageUrl="~/Styles/images/Zarpe_descarga.png"  
+                style="width:100%; max-width:200px;"/>
+        </div>
+        <div class="zarpe_descarga">
+                <asp:Image ID="Image75" runat="server" ImageUrl="~/Styles/images/Zarpe_descarga.png"  
+                style="width:100%; max-width:200px;"/>
+        </div>
+        <div class="zarpe_descarga">
+                <asp:Image ID="Image84" runat="server" ImageUrl="~/Styles/images/Zarpe_descarga.png"  
+                style="width:100%; max-width:200px;"/>
+        </div>
+        <div class="zarpe_descarga">
+                <asp:Image ID="Image85" runat="server" ImageUrl="~/Styles/images/Zarpe_descarga.png"  
+                style="width:100%; max-width:200px;"/>
+        </div>
+        <div class="zarpe_descarga">
+                <asp:Image ID="Image86" runat="server" ImageUrl="~/Styles/images/Zarpe_descarga.png"  
+                style="width:100%; max-width:200px;"/>
+        </div>
+
+
+
+
+       
+
+        <br>
+        <div style="float:right;" ><br><br><br>
+        <asp:HyperLink ID="HyperLink44" runat="server" href="#">
+        <asp:Label ID="Label159" runat="server" Text="Ver más" style="text-decoration:underline;" Font-Bold="true"  
+        class="titulo_8d" ForeColor="#808185"></asp:Label>
+        </asp:HyperLink>
+        </div>
+
+        <br>
+        </div>
+        </td>
+        </tr>
+
 
 
 

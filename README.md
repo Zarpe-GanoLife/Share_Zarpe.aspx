@@ -139,7 +139,7 @@
     <tr>
     <td align="center">
 
-    <table width="85%" border="0" align="center" cellpadding="0" cellspacing="0" style="max-width:1100px; ">
+    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" style="max-width:1100px; ">
         <tr style="display:none;">
         <td align="left" >
         <asp:Image ID="Image3" runat="server" ImageUrl="~/Styles/images/zarpe_logo2.jpg" style="width:100%; max-width:150px; margin-left:-10px;" class="ver_en_movil"/>
@@ -174,11 +174,22 @@
         <div class="div_borde">
         <div id="videos" style="height:10px;" ></div>
 
-        <asp:Image ID="Image118" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:22px;"/>
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >
+        <tr>
+        <td class="ancho_titulo" >
+        <asp:Image ID="Image118" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" class="flecha_titulo"/>
         <asp:Label ID="Label91" runat="server" Text="Videos" class="titulo_8b" Font-Bold="true" ForeColor="#042842" ></asp:Label>
-        <asp:Image ID="Image31" runat="server" ImageUrl="~/Styles/images/zarpe_linea7.png"/>
+        <asp:Image ID="Image31" runat="server" ImageUrl="~/Styles/images/zarpe_linea7.png" class="linea_titulo"/>
+        </td>
+
+        <td width="90%" style="line-height:1;">
         <asp:Label ID="Label102" runat="server" Text="Haz click sobre el botón COMPARTIR para seleccionar el destino del contenido." 
         class="texto_19" ForeColor="#818183"></asp:Label>
+        </td>
+        </tr>
+        </table>
+
+
         <br>
 
 
@@ -190,8 +201,8 @@
                 <ul style="padding-left: 0; margin-bottom: 0; list-style: none;">
                  <li class="dropdown" id="#">
                     <br>
-                    <asp:Label ID="lbTitle" runat="server" ForeColor="#929397" class="texto_3" Text="Título"></asp:Label><br><br>
-                    <br>
+                    <asp:Label ID="lbTitle" runat="server" ForeColor="#929397" class="texto_3" Text="Título"></asp:Label><br>
+                    <div class="no_ver_en_movil2" ><br></div>
                     <asp:HyperLink ID="HyperLink9" runat="server"  href="#" data-toggle="dropdown" role="button" class="boton_zarpe13 ocultar_en_movil">
                         <asp:Label ID="Label105" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
                     </asp:HyperLink>
@@ -371,7 +382,7 @@
 
 
 
-        <div style="float:right;" >
+        <div style="float:right; width:100%" class="alinear_zarpe4">
         <asp:HyperLink ID="HyperLink35" runat="server" href="#">
         <asp:Label ID="Label148" runat="server" Text="Ver más" style="text-decoration:underline;" Font-Bold="true"  
         class="titulo_8d" ForeColor="#808185"></asp:Label>
@@ -383,7 +394,7 @@
 
 
         <!-- VIDEOS MOVIL -->
-        <div class="zarpe_movil">
+        <div class="zarpe_movil" style="display:none!important;">
 
         <asp:DataList ID="dtlVideos_movil" runat="server" ClientIDMode="Static" RepeatDirection="Horizontal" RepeatColumns="3"  RepeatLayout="Flow" onitemdatabound="dtlShare_ItemDataBound" >
         <ItemTemplate>
@@ -785,11 +796,21 @@
         <div id="productos" style="height:10px;" ></div>
         <br>
         <div class="div_borde">
-        <asp:Image ID="Image300" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" style="width:22px;"/>
+        <br>
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >
+        <tr>
+        <td class="ancho_titulo2" >
+        <asp:Image ID="Image9" runat="server" ImageUrl="~/Styles/images/zarpe_flecha8.png" class="flecha_titulo"/>
         <asp:Label ID="Label510" runat="server" Text="Productos" class="titulo_8b" Font-Bold="true" ForeColor="#042842" ></asp:Label>
-        <asp:Image ID="Image36" runat="server" ImageUrl="~/Styles/images/zarpe_linea7.png"/>
+        <asp:Image ID="Image105" runat="server" ImageUrl="~/Styles/images/zarpe_linea7.png" class="linea_titulo"/>
+        </td>
+
+        <td width="90%" style="line-height:1;">
         <asp:Label ID="Label106" runat="server" Text="Haz click sobre el botón COMPARTIR para seleccionar el destino del contenido." 
         class="texto_19" ForeColor="#818183"></asp:Label>
+        </td>
+        </tr>
+        </table>
         <br>
 
         <div style="height:0px;" class="zarpe_pc"></div>
@@ -802,11 +823,11 @@
             
             <div class="zarpe_productos_ancho">
                 <ul style="padding-left: 0; list-style: none; text-align:left;">
-                 <li class="dropdown" id='<%# "li-product-"+DataBinder.Eval(Container.DataItem, "ProductID") %>'>
+                 <li class="dropdown alinear_zarpe2" id='<%# "li-product-"+DataBinder.Eval(Container.DataItem, "ProductID") %>' >
                  
                     <%--<input id='<%# "ac-product-"+DataBinder.Eval(Container.DataItem, "ProductID") %>' name='<%# "accordion-product-"+DataBinder.Eval(Container.DataItem, "ProductID") %>'" type="checkbox" /--%>
 
-                    <div class="tooltip3333" title="" href="#" data-toggle="dropdown" role="button">
+                    <div data-toggle="dropdown" role="button">
                     <label for='<%# "ac-product-"+DataBinder.Eval(Container.DataItem, "ProductID") %>' >
                             
                             <div class="zarpe_imagen_borde">
@@ -815,8 +836,8 @@
                             style="width:100%; max-width:400px;"/></div>
 
                             <div style="height:14px;" class="zarpe_pc"></div>
-                            <asp:Label ID="lbTitle" runat="server" ForeColor="#929397" class="texto_3" Text="Título"></asp:Label><br><br>
-
+                            <asp:Label ID="lbTitle" runat="server" ForeColor="#929397" class="texto_3" Text="Título"></asp:Label><br>
+                            <div class="no_ver_en_movil2" ><br></div>
                             <asp:HyperLink ID="lnkShare" runat="server"  href="#" class="boton_zarpe13 ocultar_en_movil">
                                 <asp:Label ID="lbShare" runat="server" ForeColor="#052943" Text="COMPARTIR" Font-Bold="true"></asp:Label>
                             </asp:HyperLink>
@@ -1005,7 +1026,7 @@
                                     </div>
                                 </div>
 
-                                <div style="height:50px;" class="ver_en_movil"></div>
+                                <div style="height:0px;" class="ver_en_movil"></div>
 
 <%--
                                 <!-- DropMenu movil --> 
@@ -1096,7 +1117,7 @@
 
                 </ul>
 
-                <br><br>
+                <div class="no_ver_en_movil2" ><br><br></div>
             </div>
 
         </ItemTemplate>
@@ -1340,7 +1361,7 @@
 
              </li>
         </ul>
-        <br><br>
+        <div class="no_ver_en_movil2" ><br><br></div>
         </div>
         </ItemTemplate>
         </asp:DataList>
